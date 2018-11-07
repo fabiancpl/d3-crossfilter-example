@@ -1,0 +1,29 @@
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.area {
+  fill: #969696;
+}
+
+#gatenames .x.axis text {
+  text-anchor: end;
+}
+
+#gatenames svg { 
+  overflow: visible;
+}
